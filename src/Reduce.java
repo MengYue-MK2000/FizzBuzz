@@ -1,6 +1,10 @@
 public class Reduce {
     public static void main(String[] args) {
         int num = 100;
+        doReduce(num);
+    }
+
+    private static void doReduce(int num) {
         int count = 0;
         while (num > 0) {
             if (num % 2 == 0) {
